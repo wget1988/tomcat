@@ -7,6 +7,7 @@ tomcat_linuxwt:
        - /etc/timezone:/etc/timezone
        - $PWD/setclasspath.sh:/usr/local/tomcat/bin/setclasspath.sh
        - $PWD/.bashrc:/root/.bashrc
+       - $PWD/logs:/usr/local/tomcat/logs
        - $PWD/project_code:/usr/local/tomcat/webapps/ROOT
     privileged: true
     ports:
