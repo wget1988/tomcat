@@ -1,6 +1,6 @@
 ## 1、tomcat_web里是以centos7为基础镜像部署的tomcat的Web服务实例  
 
-### 1.1、启动容器前，请执行命令bash jdk.sh  
+### 1.1、构建镜像前前，请执行命令bash jdk.sh  
 
 ### 1.2、文件映射说明  
 
